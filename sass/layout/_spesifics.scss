@@ -1,0 +1,42 @@
+.specifics {
+  padding: 94px 0px;
+}
+
+.specifics-list {
+  display: flex;
+}
+
+.specifics-box-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+
+.specifics-card:not(:first-child) {
+  margin-left: 30px;
+}
+
+.specifics-list:not(:last-child) {
+  margin-left: 30px;
+}
+
+.specifics-title {
+  margin-bottom: 10px;
+
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--primary-tex-color);
+}
+
+.specifics-content {
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--secondary-text-color);
+}
