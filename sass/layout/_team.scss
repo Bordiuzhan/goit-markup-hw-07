@@ -28,7 +28,7 @@
 
 .team-text {
   padding: 30px 0;
-  background-color: #ffffff;
+  background-color: var(--bgc-basic-color);
 }
 
 .team-subtitle {
@@ -81,6 +81,6 @@
   &:hover,
   &:focus {
     background-color: var(--accent-color);
-    color: #ffffff;
+    color: var(--bgc-basic-color);
   }
 }

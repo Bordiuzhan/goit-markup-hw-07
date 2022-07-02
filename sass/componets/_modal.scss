@@ -127,7 +127,7 @@
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
 
-  color: #757575;
+  color: var(--secondary-text-color);
 
   margin-top: 20px;
   margin-bottom: 30px;
@@ -154,13 +154,13 @@
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .icon-check {
   fill: transparent;
 
   .check-text:checked + span & {
-    fill: #fff;
+    fill: var(--bgc-basic-color);
   }
 }
