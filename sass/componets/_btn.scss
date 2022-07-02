@@ -1,0 +1,9 @@
+.active {
+  transition: color 250ms var(--cubic);
+}
+
+.active:hover,
+.active:active,
+.active:focus {
+  color: var(--accent-color);
+}
