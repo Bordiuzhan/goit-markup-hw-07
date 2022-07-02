@@ -416,13 +416,13 @@ body {
   color: #afb1b8;
   transition: background-color 250ms var(--cubic), color 250ms var(--cubic);
 }
+.team-soc-link:hover, .team-soc-link:focus {
+  background-color: var(--accent-color);
+  color: var(--bgc-basic-color);
+}
 
 .team-soc-icon {
   fill: currentColor;
-}
-.team-soc-icon:hover, .team-soc-icon:focus {
-  background-color: var(--accent-color);
-  color: var(--bgc-basic-color);
 }
 
 .clients {
